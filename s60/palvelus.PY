@@ -15,8 +15,8 @@ from Asunto import Asunto
 
 
 KMenuAlueet = ( [(u"Lisaa alue", lambda:lisaaAlue()), (u"Poista alue", lambda:poistaAlue()), (u"Exit", lambda:APP_LOCK.signal())] )
-KMenuAlue = ( [(u"Nimi", lambda:nimi()), (u"Lisaa tapahtuma", lambda:lisaaTapahtuma()), (u"Tyhjenna tapahtumat", lambda:tyhjennaTapahtumat()), (u"Alueet", lambda:goToAlueet())] )
-KMenuAsunto = ( [(u"Alueet", lambda:goToAlueet()), (u"Alue", lambda:goToAlue())] )
+KMenuAlue = ( [(u"Nimi", lambda:nimi()), (u"Lisaa tapahtuma", lambda:lisaaTapahtuma()), (u"Takas", lambda:goToAlueet())] )
+KMenuAsunto = ( [(u"Takas", lambda:goToAlue())] )
 
 
 
